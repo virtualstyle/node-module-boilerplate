@@ -15,7 +15,6 @@
         "coveralls": "nyc report --reporter=text-lcov | coveralls"
     },
     "devDependencies": {
-        "@virtualstyle/config": "0.1.0",
         "colors": "1.1.2",
         "jscs": "3.0.7",
         "jsdoc": "3.5.4",
@@ -25,5 +24,6 @@
         "coveralls": "2.13.1"
     },
     "dependencies": {
+        "@virtualstyle/config": "0.1.0"
     }
 }
