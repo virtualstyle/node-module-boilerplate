@@ -11,8 +11,8 @@
         "code": "npm run code:jshint && npm run code:jscs",
         "docs": "rm -rf docs && node_modules/.bin/jsdoc -c .jsdocrc",
         "test": "mocha -R spec test/*-test.js",
-        "coverage": "nyc --reporter=text --report-dir docs/coverage mocha -R test/null-reporter test/*-test.js  && nyc --report-dir docs/coverage --reporter=html mocha -R test/null-reporter test/*-test.js",
-        "coveralls": "nyc report --reporter=text-lcov mocha -R spec test/*-test.js | coveralls"
+        "coverage": "nyc --reporter=text --report-dir docs/coverage mocha -R spec test/*-test.js  && nyc --report-dir docs/coverage --reporter=html mocha -R test/null-reporter test/*-test.js",
+        "coveralls": "nyc report --reporter=text-lcov | coveralls"
     },
     "devDependencies": {
         "colors": "1.1.2",
