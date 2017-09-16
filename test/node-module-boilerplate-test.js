@@ -11,6 +11,14 @@ describe('Testing @virtualstyle/node-module-boilerplate package'.bold.underline,
         assert(typeof nodeModuleBoilerplate === 'object');
     });
 
+    it('nodeModuleBoilerplate.config is an object'.italic, function () {
+        assert(typeof nodeModuleBoilerplate.config === 'object');
+    });
+
+    it('nodeModuleBoilerplate.config is an object'.italic, function () {
+        assert(typeof nodeModuleBoilerplate.config === 'object');
+    });
+
     it('nodeModuleBoilerplate.sayHello()'.italic, function () {
         assert(nodeModuleBoilerplate.sayHello('World') === 'Hello World');
     });
