@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@virtualstyle/config@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/@virtualstyle/config/-/config-0.3.0.tgz#8375fcf23dc73f6649f04b17d316970209594a94"
+"@virtualstyle/config@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/@virtualstyle/config/-/config-0.4.0.tgz#72fdc210406e9ff9dc26144f231ce3b7b2d51429"
 
 "JSV@>= 4.0.x":
   version "4.0.2"

@@ -24,6 +24,6 @@
         "nyc": "11.2.1"
     },
     "dependencies": {
-        "@virtualstyle/config": "0.3.0"
+        "@virtualstyle/config": "0.4.0"
     }
 }
